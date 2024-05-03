@@ -17,6 +17,7 @@ startBtn.addEventListener('click', () => {
   startBtn.disabled = true; //disable buton start
   stopBtn.disabled = false; //butonul stop ramane/devine enable
 });
+
 //stop background color generation
 stopBtn.addEventListener('click', () => {
   clearInterval(timerId);
